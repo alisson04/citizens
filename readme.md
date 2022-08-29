@@ -35,6 +35,7 @@ By entering the citizen's name, the NIS number is automatically generated.
 2. Copy .env.example to a new file and rename to .env
 3. Uncomment pdo_sqlite extension in php.ini (change ';extension=pdo_sqlite' to extension=pdo_sqlite)
 4. Run 'make' command on terminal
+5. Access in (http://localhost:8080/citizens)
 
 ## How to run the tests
 Run 'make test'
