@@ -1,0 +1,27 @@
+{
+    "name": "alisson04/nis",
+    "type": "project",
+    "license": "GNU General Public License v3.0",
+    "autoload": {
+        "psr-4": {
+            "Alisson04\\Nis\\": "src/",
+            "Alisson04\\Nis\\Config\\": "config/",
+            "Alisson04\\Nis\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alisson Fernandes",
+            "email": "alissonvinicios04@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-pdo": "*",
+        "vlucas/phpdotenv": "^5.4",
+        "nyholm/psr7": "^1.5",
+        "nyholm/psr7-server": "^1.0",
+        "psr/http-factory": "^1.0",
+        "psr/http-message": "^1.0",
+        "psr/http-server-handler": "^1.0"
+    }
+}

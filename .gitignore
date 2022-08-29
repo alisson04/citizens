@@ -1,0 +1,6 @@
+.idea
+/vendor
+.env
+/database/db.sqlite
+/database/db_test.sqlite
+apache-conf
